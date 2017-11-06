@@ -45,8 +45,9 @@ def new_order(symbol, side, quantity, price, timeInForce):
 #    main loop    #
 # --------------- #
 
+# random example for how to use some of the above functions
+# see api docs to implement other functions or to see what paramaters are available 
 if __name__ == "__main__":
-
 	while(True):
 		# append the dater
 		date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
