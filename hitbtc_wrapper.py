@@ -45,3 +45,6 @@ class hitbtc(object):
     # fees of 0.1% as noted in hitbtc docs
     def new_order_hitbtc(self, symbol, side, quantity, price, timeInForce):
         return self.query_hitbtc('order', {'symbol': symbol, 'side': side, 'quantity': quantity, 'price': price, 'timeInForce': timeInForce})
+
+    
+   
